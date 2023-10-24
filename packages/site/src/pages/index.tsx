@@ -116,7 +116,7 @@ const Index = () => {
           content={{
             title: 'Liquidation Guard',
             description:
-              'Allow Snap to periodic check and pay collateral in the case of liquidation',
+              'Allow Snap to automatically check and pay collateral in the case of liquidation',
             button: (
               <SendHelloButton
                 onClick={handleSendSignatureClick}
