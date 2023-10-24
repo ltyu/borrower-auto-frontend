@@ -67,21 +67,6 @@ const Index = () => {
     ? state.isFlask
     : state.snapsDetected;
 
-  const handleConnectClick = async () => {
-    try {
-      await connectSnap();
-      const installedSnap = await getSnap();
-
-      dispatch({
-        type: MetamaskActions.SetInstalled,
-        payload: installedSnap,
-      });
-    } catch (e) {
-      console.error(e);
-      dispatch({ type: MetamaskActions.SetError, payload: e });
-    }
-  };
-
   const handleSendSignatureClick = async () => {
     try {
       await sendSignature();
@@ -110,7 +95,6 @@ const Index = () => {
             fullWidth
           />
         )}
-        
         
         <Card
           content={{
