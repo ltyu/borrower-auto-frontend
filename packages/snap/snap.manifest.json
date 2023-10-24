@@ -1,13 +1,13 @@
 {
   "version": "0.1.0",
-  "description": "An example Snap written in TypeScript.",
-  "proposedName": "TypeScript Example",
+  "description": "An POC Snap written in TypeScript.",
+  "proposedName": "Liquidation Protection POC",
   "repository": {
     "type": "git",
     "url": "https://github.com/MetaMask/template-snap-monorepo.git"
   },
   "source": {
-    "shasum": "EEqPlMf7uxzrMZ9G3T9Mj6DeCUv7eQhzcIqZ9yxgjiA=",
+    "shasum": "kcLhfimEZDdFnLEJRfI4gVP/tKPFHrQ/uUJNra+xFAc=",
     "location": {
       "npm": {
         "filePath": "dist/bundle.js",
@@ -24,7 +24,6 @@
       "snaps": false
     },
     "endowment:network-access": {},
-    "endowment:ethereum-provider": {},
     "endowment:cronjob": {
       "jobs": [
         {
