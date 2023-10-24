@@ -9,7 +9,6 @@ import {
   shouldDisplayReconnectButton,
 } from '../utils';
 import {
-  ConnectButton,
   InstallFlaskButton,
   SendHelloButton,
   Card,
